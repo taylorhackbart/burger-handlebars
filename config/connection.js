@@ -1,5 +1,5 @@
-var mysql= require("mysql");
 const mysql = require("mysql");
+const express = require("express")
 const exphbs = require("express-handlebars");
 var app = express();
 

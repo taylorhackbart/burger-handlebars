@@ -3,7 +3,7 @@
 <ul class = "devoured">
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
+      {{!-- {{> burgers devoured=true}} --}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -17,7 +17,7 @@
 <ul id="ifeaten">
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block}}
+      {{!-- {{> burgers}} --}}
     {{/if}}
   {{/each}}
 </ul>
