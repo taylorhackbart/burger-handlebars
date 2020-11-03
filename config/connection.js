@@ -5,17 +5,15 @@ var connection = mysql.createConnection({
   port: 3306,
   user: "root",
   password: "taylor123!",
-  database: "burgers_db"
+  database: "burgers_db",
 });
 
-
-connection.connect(function(err) {
+connection.connect(function (err) {
   if (err) {
     console.error("error connecting: " + err.stack);
     return;
   }
   console.log("connected as id " + connection.threadId);
 });
-
 
 module.exports = connection;

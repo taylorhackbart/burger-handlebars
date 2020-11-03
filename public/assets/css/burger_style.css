@@ -1,31 +1,30 @@
 ul {
   list-style: none;
-  }
-img{
+}
+img {
   display: block;
   width: 25%;
   height: 25%;
   margin-left: auto;
   margin-right: auto;
 }
-body{
+body {
   background-color: lightgoldenrodyellow;
-  font-family: 'Itim', cursive;
+  font-family: "Itim", cursive;
 }
-p{
+p {
   font-style: italic;
   font-size: larger;
 }
-form{
+form {
   text-align: center;
 }
-.add-burger{
+.add-burger {
   text-align: center;
 }
-h2{
+h2 {
   text-align: center;
 }
-button{
+button {
   background-color: white;
-
 }

@@ -18,6 +18,6 @@ var routes = require("./controllers/controller.js");
 
 app.use(routes);
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("Server listening on: http://localhost:" + PORT);
 });
