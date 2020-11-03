@@ -1,23 +1,35 @@
-<h1> Burgers! </h1>
+<div class="container">
+<h1>Burgers!</h1>
 
-<ul class = "devoured">
+<p>Burgers to Devour</p>
+<ul>
   {{#each burgers}}
-    {{#unless devoured}}
-      {{!-- {{> burgers devoured=true}} --}}
+    {{#unless devour}}
+      {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h3> Add a burger: </h3>
-<form>
-  <textarea type="text" name="name" id="burger-type"></textarea>
-  <button type= "submit" id="submit"> Submit!</button>
-</form>
 
-<ul id="ifeaten">
+<p class="col-md-12">Devoured Burgers</p>
+<ul>
   {{#each burgers}}
-    {{#if devoured}}
-      {{!-- {{> burgers}} --}}
+    {{#if devour}}
+      {{> burgers/burger-block devour=false}}
     {{/if}}
   {{/each}}
 </ul>
+
+
+<h2>Add a burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burg">Burger Name:</label>
+    <input type="text" id="burg" name="name">
+  </div>
+
+
+  <button type="submit">Add a burger</button>
+</form>
+</div>
