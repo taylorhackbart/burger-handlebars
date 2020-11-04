@@ -1,7 +1,7 @@
 # KRUSTY CRAB
 
 ## DESRCIPTION
-For this assignment, we created a website that will allow the user to add/order a burger that they would like to eat. Once the burger has been added, they can click the "devour" button, and it will be shown on the right side of the screen as devoured.
+For this assignment, we created a website that will allow the user to add/order a burger that they would like to eat. Once the burger has been added, they can click the "devour" button, and it will be shown on the right side of the screen as devoured. To view the live website hosted by Heroku, click <a href="https://floating-waters-58437.herokuapp.com/"> here </a>
 
 ## Usage
 When you open this website it will look like:
